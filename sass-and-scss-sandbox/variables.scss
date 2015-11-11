@@ -1,0 +1,6 @@
+$primary-color: #333;
+
+body{
+  color: $primary-color;
+}
+// run: scss --watch variables.scss:output.css

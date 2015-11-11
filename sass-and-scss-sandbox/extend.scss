@@ -1,0 +1,21 @@
+div{
+  color: red;
+}
+
+#idName{
+  margin: 10px;
+}
+
+.className{
+  padding: 15px;
+}
+
+span{
+  @extend div;
+  @extend #idName;
+  @extend .className;
+}
+
+td{
+  @extend div, #idName, .className;
+}

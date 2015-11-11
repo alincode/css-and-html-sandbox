@@ -1,0 +1,12 @@
+@mixin setBasicElement($color: red, $padding: 10px) {
+  color: $color;
+  padding: $padding;
+}
+
+.example1{
+  @include setBasicElement(blue, 5px);
+}
+
+.example2{
+  @include setBasicElement;
+}
